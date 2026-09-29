@@ -37,6 +37,8 @@ function Field({ label, children }) {
 
 export default function Consultation() {
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState('');
   const [form, setForm] = useState({
     name: '',
     organisation: '',
@@ -49,9 +51,31 @@ export default function Consultation() {
 
   const set = (k, v) => setForm((f) => ({ ...f, [k]: v }));
 
-  const submit = (e) => {
+  const submit = async (e) => {
     e.preventDefault();
-    setSubmitted(true);
+    setSubmitting(true);
+    setError('');
+    try {
+      const res = await fetch('/api/consultation', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: form.name,
+          organisation: form.organisation,
+          email: form.email,
+          phone: form.phone,
+          enquiry: form.enquiry,
+          portfolio_value: form.portfolio,
+          message: form.message,
+        }),
+      });
+      if (!res.ok) throw new Error('Request failed');
+      setSubmitted(true);
+    } catch (err) {
+      setError('Something went wrong sending your request. Please try again, or email us directly.');
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -149,11 +173,13 @@ export default function Consultation() {
                   className={`${inputCls} resize-none`}
                 />
               </Field>
+              {error && <p className="text-sm text-red-700">{error}</p>}
               <button
                 type="submit"
-                className="w-full border border-obsidian py-4 font-body text-[11px] tracking-[0.3em] uppercase hover:bg-obsidian hover:text-ivory transition-colors"
+                disabled={submitting}
+                className="w-full border border-obsidian py-4 font-body text-[11px] tracking-[0.3em] uppercase hover:bg-obsidian hover:text-ivory transition-colors disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:hover:text-obsidian"
               >
-                Request a Confidential Consultation
+                {submitting ? 'Sending…' : 'Request a Confidential Consultation'}
               </button>
             </form>
           )}

@@ -10,12 +10,44 @@ export default function Leadership() {
         </Reveal>
 
         <div className="grid md:grid-cols-[0.8fr_1.2fr] gap-10 md:gap-16 items-center">
-          <Reveal className="aspect-[3/4] overflow-hidden border border-black/15 max-w-sm md:max-w-none mx-auto">
-            <img
-              src="/images/leader.jpg"
-              alt="L.J. Abiola, Managing Partner"
-              className="w-full h-full object-cover"
-            />
+          <Reveal className="aspect-[3/4] overflow-hidden border border-black/15 max-w-sm md:max-w-none mx-auto bg-obsidian">
+            <svg
+              viewBox="0 0 300 400"
+              preserveAspectRatio="xMidYMid slice"
+              className="w-full h-full"
+              role="img"
+              aria-label="A drafting compass, symbolising strategic direction and leadership"
+            >
+              {/* faint blueprint grid backdrop */}
+              <g stroke="currentColor" className="text-gold/10" strokeWidth="1" fill="none">
+                <circle cx="150" cy="230" r="60" />
+                <circle cx="150" cy="230" r="100" />
+                <circle cx="150" cy="230" r="140" />
+                <line x1="0" y1="230" x2="300" y2="230" />
+                <line x1="150" y1="50" x2="150" y2="400" />
+              </g>
+
+              {/* drawn guide arc, as if mid-stroke */}
+              <path
+                d="M 88 332 Q 150 362 202 322"
+                stroke="currentColor"
+                className="text-gold/25"
+                strokeWidth="1.5"
+                strokeDasharray="2 7"
+                strokeLinecap="round"
+                fill="none"
+              />
+
+              {/* compass */}
+              <g stroke="currentColor" className="text-gold-bright" strokeWidth="2.5" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="150" cy="108" r="7" />
+                <line x1="150" y1="108" x2="98" y2="322" />
+                <line x1="150" y1="108" x2="202" y2="322" />
+                <line x1="128" y1="188" x2="172" y2="188" />
+                <line x1="98" y1="322" x2="88" y2="332" />
+                <circle cx="202" cy="322" r="3" fill="currentColor" stroke="none" />
+              </g>
+            </svg>
           </Reveal>
 
           <Reveal>
