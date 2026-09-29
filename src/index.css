@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --obsidian: 0 0% 4%;
+    --obsidian-soft: 0 0% 7%;
+    --ivory: 40 30% 95%;
+    --ivory-soft: 40 20% 88%;
+    --gold: 38 47% 57%;
+    --gold-bright: 37 55% 68%;
+    --gold-soft: 38 30% 35%;
+    --graphite: 0 0% 56%;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    @apply bg-obsidian text-ivory font-body font-light antialiased;
+    letter-spacing: 0.02em;
+    line-height: 1.65;
+    padding: 0 clamp(1.1rem, 4vw, 3rem);
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-heading font-light tracking-mast;
+    text-wrap: balance;
+  }
+
+  ::selection {
+    background: hsl(var(--gold));
+    color: hsl(var(--obsidian));
+  }
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--obsidian));
+  }
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--gold-soft));
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--gold));
+  }
+}
+
+@layer utilities {
+  @media (hover: hover) and (pointer: fine) {
+    body.cursor-luxe,
+    body.cursor-luxe a,
+    body.cursor-luxe button {
+      cursor: none;
+    }
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+  .reveal.in-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+  }
+
+  .clip-plate {
+    clip-path: polygon(
+      26px 0,
+      calc(100% - 26px) 0,
+      calc(100% - 26px) 26px,
+      100% 26px,
+      100% 100%,
+      0 100%,
+      0 26px,
+      26px 26px
+    );
+  }
+
+  @keyframes scrollmove {
+    0%,
+    100% {
+      opacity: 0.2;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  .animate-scrollmove {
+    animation: scrollmove 2.2s ease-in-out infinite;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .animate-scrollmove {
+      animation: none;
+    }
+  }
+}
