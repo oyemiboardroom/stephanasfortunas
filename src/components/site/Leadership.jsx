@@ -55,13 +55,12 @@ export default function Leadership() {
             <h2 className="font-heading text-[clamp(1.9rem,3.6vw,2.7rem)] font-light mb-1">L.J. Abiola</h2>
             <p className="text-obsidian/50 text-sm mb-6">Managing Partner</p>
             <p className="text-obsidian/60 text-base mb-4">
-              L.J. Abiola leads StephanasFortunas with a focus on strategic real estate advisory, portfolio
-              optimisation, investment structuring and innovative approaches to unlocking property value.
+              L.J. Abiola leads StephanasFortunas. His work centres on property advice, getting more out of
+              portfolios, structuring investments and finding new ways to draw value from real estate.
             </p>
             <p className="text-obsidian/60 text-base">
-              Under his leadership, StephanasFortunas seeks to create a more sophisticated approach to real
-              estate ownership — one that combines traditional property expertise with financial and strategic
-              thinking.
+              His view is that owning property well takes more than property know-how. It also takes the
+              instincts of an investor and a financier, and he has built the firm around that idea.
             </p>
 
             <div className="flex flex-wrap gap-7 mt-8 pt-8 border-t border-black/15">

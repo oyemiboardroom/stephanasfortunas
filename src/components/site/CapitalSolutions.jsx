@@ -7,19 +7,19 @@ const ITEMS = [
   {
     roman: 'I',
     title: 'Property Financing',
-    desc: 'Rent-to-Own structures that provide an alternative pathway to property ownership — without the traditional upfront capital commitment.',
+    desc: 'Rent-to-Own gives buyers another route to owning a home, without having to find a big lump sum first.',
     to: '/solutions/rent-to-own',
   },
   {
     roman: 'II',
     title: 'Trade Distribution',
-    desc: 'Structured property-backed arrangements supporting qualifying trade and distribution activities — inventory, supplier credit and working capital.',
+    desc: 'Property-backed security that helps qualifying traders and distributors get stock, supplier credit and working capital.',
     to: '/solutions/trade-distribution',
   },
   {
     roman: 'III',
     title: 'SME Investment',
-    desc: 'Connecting growth-oriented SMEs with equity investment opportunities supported by appropriate risk-mitigation structures.',
+    desc: 'We connect growing SMEs with equity investors, and use property-backed security to make the risk easier to carry.',
     to: '/solutions/sme-equity-investment',
   },
 ];
@@ -28,11 +28,11 @@ export default function CapitalSolutions() {
   return (
     <section id="capital" data-tag="Capital" className="py-16 md:py-28 bg-ivory text-obsidian">
       <div className="max-w-[1280px] mx-auto">
-        <SectionLabel index="03 // Capital" kicker="Beyond Real Estate" title="We don't just manage property. We unlock its financial potential." light />
+        <SectionLabel index="03 // Capital" kicker="Beyond Real Estate" title="Your property can do more than hold its value." light />
         <Reveal className="-mt-6 mb-10 md:mb-14">
           <p className="text-obsidian/60 text-base max-w-xl">
-            A home can be more than a place to live. Properly structured, qualifying property becomes working
-            capital — supporting financing, trade and investment.
+            A home can be more than a place to live. With the right structure, a qualifying property can back
+            financing, trade and investment.
           </p>
         </Reveal>
 
@@ -60,7 +60,7 @@ export default function CapitalSolutions() {
 
         <Reveal className="border border-black/15 p-8 md:p-11 flex flex-wrap items-center justify-between gap-6">
           <div>
-            <p className="font-body text-[11px] tracking-[0.4em] uppercase text-gold">The Ecosystem Narrative</p>
+            <p className="font-body text-[11px] tracking-[0.4em] uppercase text-gold">How It Connects</p>
             <p className="mt-3 font-heading italic text-[clamp(1.1rem,2.4vw,1.5rem)] max-w-lg">
               Property → Income → Financing → Security → Business Growth → Investment
             </p>

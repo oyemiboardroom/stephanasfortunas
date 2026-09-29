@@ -10,7 +10,7 @@ const ITEMS = [
     img: '/images/service1.jpg',
     alt: 'Real Estate Agency Platform — Odacity',
     kicker: 'Connecting Property, Capital & Opportunity',
-    desc: 'One structured environment where owners, buyers, investors and tenants discover and execute quality opportunities — intelligence, transaction support and market access in one place.',
+    desc: 'One place for owners, buyers, investors and tenants to find good opportunities and close on them, with market research and deal support built in.',
     bullets: [
       'Property acquisition & disposition',
       'Buyer, investor & tenant sourcing',
@@ -25,10 +25,10 @@ const ITEMS = [
     img: '/images/service2.jpg',
     alt: 'Portfolio Advisory',
     kicker: 'Turning Portfolios into Strategic Assets',
-    desc: 'Independent strategic advisory for substantial portfolios — we assess composition and performance to improve income and capital appreciation.',
+    desc: 'Independent advice for larger portfolios. We look at what you own and how it is performing, then help it earn more and grow in value.',
     bullets: [
       'Portfolio review & analysis',
-      'Market intelligence & opportunity ID',
+      'Market intelligence & opportunity identification',
       'Deal room activities',
       'Strategic portfolio management',
     ],
@@ -39,8 +39,8 @@ const ITEMS = [
     title: 'Real Estate Financing — Rent-to-Own',
     img: '/images/service3.jpg',
     alt: 'Real Estate Financing — Rent-to-Own',
-    kicker: 'Unlock Property Value Without Selling',
-    desc: 'Own property without traditional upfront capital — occupancy, structured payments and a defined pathway to ownership.',
+    kicker: 'Own Properties Without Buying',
+    desc: 'Move in, make regular payments and own the property at the end of an agreed term, without a large deposit upfront.',
     bullets: [
       'Select → Structure → Occupy → Pay → Own',
       'For professionals, entrepreneurs & families',
@@ -55,7 +55,7 @@ const ITEMS = [
     img: '/images/service4.jpg',
     alt: 'Real Estate-Backed Guaranty',
     kicker: 'Turning Residential Property into Financial Access',
-    desc: 'Qualifying residential property becomes security and support for eligible commercial transactions and investment opportunities.',
+    desc: 'A qualifying home can be used as support for eligible business deals and investments.',
     bullets: [
       'Trade distribution financing',
       'SME equity investment support',
@@ -72,10 +72,10 @@ export default function Pillars() {
   return (
     <section id="pillars" data-tag="Pillars" className="py-16 md:py-28 bg-ivory text-obsidian">
       <div className="max-w-[1280px] mx-auto">
-        <SectionLabel index="02 // Pillars" kicker="Four Core Services" title="The Pillar of Services" light />
+        <SectionLabel index="02 // Pillars" kicker="Four Core Services" title="How We Can Help" light />
         <Reveal className="-mt-6 mb-10 md:mb-16">
           <p className="text-obsidian/60 text-base max-w-xl">
-            Four pillars. One objective — making your property work harder.
+            Four services, all aimed at the same thing: making your property work harder.
           </p>
         </Reveal>
 

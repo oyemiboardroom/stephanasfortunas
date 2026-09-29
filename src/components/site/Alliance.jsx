@@ -3,18 +3,18 @@ import Reveal from './Reveal.jsx';
 import SectionLabel from './SectionLabel.jsx';
 
 const STEPS = [
-  ['01', 'Initial Discussion', 'We understand your organisation, client base and objectives.'],
-  ['02', 'Confidentiality', 'A mutual NDA is executed where appropriate.'],
-  ['03', 'Partnership Agreement', 'The commercial and operating framework is formally documented.'],
-  ['04', 'Client Introduction', 'Clients are introduced for assessment and engagement.'],
-  ['05', 'Ongoing Collaboration', 'We work collaboratively to deliver the agreed solution.'],
+  ['01', 'Initial Discussion', 'We get to know your organisation, your clients and what you want to achieve.'],
+  ['02', 'Confidentiality', 'Where it makes sense, we both sign an NDA.'],
+  ['03', 'Partnership Agreement', 'We put the commercial and working arrangements in writing.'],
+  ['04', 'Client Introduction', 'You introduce clients, and we work out how we can help them.'],
+  ['05', 'Ongoing Collaboration', 'We work side by side to deliver what was agreed.'],
 ];
 
 export default function Alliance() {
   return (
     <section id="alliance" data-tag="Alliance" className="py-16 md:py-28 bg-ivory text-obsidian">
       <div className="max-w-[1280px] mx-auto">
-        <SectionLabel index="07 // Alliance" kicker="Partner With Us" title="Create More Value for Your Clients" light />
+        <SectionLabel index="07 // Alliance" kicker="Partner With Us" title="Give Your Clients More" light />
 
         <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-start">
           <Reveal className="aspect-[4/3] overflow-hidden border border-black/15">
@@ -27,9 +27,8 @@ export default function Alliance() {
 
           <Reveal>
             <p className="text-obsidian/60 text-base mb-5">
-              We partner with institutions and professional organisations serving clients with significant real
-              estate holdings — introducing those clients to specialised advisory, value-creation and capital
-              solutions.
+              We work with institutions and professional firms whose clients own significant property. You
+              introduce those clients to us, and we offer them specialist advice and access to capital.
             </p>
 
             <div className="border-l-2 border-gold pl-5 mb-7">
@@ -37,8 +36,8 @@ export default function Alliance() {
                 Partner Economics
               </span>
               <p className="text-obsidian/60 text-sm">
-                Subject to agreed commercial terms, eligible partners may receive participation in applicable
-                revenues generated from clients they introduce.
+                Subject to agreed commercial terms, eligible partners can share in the revenue earned from clients
+                they introduce.
               </p>
             </div>
 

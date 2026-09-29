@@ -3,22 +3,22 @@ import Reveal from './Reveal.jsx';
 import SectionLabel from './SectionLabel.jsx';
 
 const STEPS = [
-  ['01', 'Analyse', 'Examine income, capital, market and opportunity.'],
-  ['02', 'Structure', 'Design the transaction and financing architecture.'],
-  ['03', 'Optimise', 'Improve asset utilisation and income generation.'],
-  ['04', 'Execute', 'Move from strategy to implementation in the deal room.'],
-  ['05', 'Grow', 'Sustainable long-term value and wealth creation.'],
+  ['01', 'Analyse', 'What the property earns, what it is worth and what the market is doing.'],
+  ['02', 'Structure', 'Work out how the deal and the financing should fit together.'],
+  ['03', 'Optimise', 'Get more use, and more income, out of the asset.'],
+  ['04', 'Execute', 'Take the plan into the deal room and get it done.'],
+  ['05', 'Grow', 'Keep building value, year after year.'],
 ];
 
 export default function Process() {
   return (
     <section id="process" data-tag="Process" className="py-16 md:py-28 bg-obsidian text-ivory">
       <div className="max-w-[1280px] mx-auto">
-        <SectionLabel index="04 // Process" kicker="Value Creation Framework" title="Your Real Estate, Our Strategic Perspective" />
+        <SectionLabel index="04 // Process" kicker="Five Steps" title="How We Work on Your Property" />
         <Reveal className="-mt-6 mb-10 md:mb-14">
           <p className="text-ivory-soft text-base max-w-xl">
-            We look beyond the property itself — at the income it generates, the capital it represents and the
-            market around it.
+            We don&apos;t stop at the building. We also look at the income it earns, the capital tied up in it and
+            the market around it.
           </p>
         </Reveal>
 

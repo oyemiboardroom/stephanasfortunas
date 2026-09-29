@@ -3,10 +3,10 @@ import Reveal from './Reveal.jsx';
 import SectionLabel from './SectionLabel.jsx';
 
 const CARDS = [
-  ['Tailored Strategies', 'Every strategy is built around your assets, objectives and risk profile — no universal templates.'],
-  ['Market Intelligence', 'Property-level analysis combined with broader market intelligence to identify opportunities and risks.'],
-  ['Value Creation', 'We improve the economic productivity of real estate — not just execute transactions.'],
-  ['Strategic Execution', 'From portfolio analysis to deal-room activities, we move strategy into implementation.'],
+  ['Tailored Strategies', 'Every plan starts from scratch, built around your assets, your goals and how much risk you are comfortable with.'],
+  ['Market Intelligence', 'We study each property closely and keep watching the wider market, so we spot openings and problems early.'],
+  ['Value Creation', 'Closing a deal is only part of the job. What we are after is property that earns more.'],
+  ['Strategic Execution', 'We carry the work from the first portfolio review right through to the deal room.'],
 ];
 
 export default function Distinction() {
@@ -20,7 +20,7 @@ export default function Distinction() {
       <div className="absolute inset-0 -z-10 bg-gradient-to-r from-obsidian/95 via-obsidian/85 to-obsidian/70" />
 
       <div className="max-w-[1280px] mx-auto">
-        <SectionLabel index="06 // Distinction" kicker="Why StephanasFortunas" title="Why Clients Choose StephanasFortunas" />
+        <SectionLabel index="06 // Distinction" kicker="Why StephanasFortunas" title="Why Clients Choose Us" />
 
         <Reveal className="grid md:grid-cols-[1.3fr_0.9fr] gap-8 md:gap-14 items-start">
           <div className="grid sm:grid-cols-2 gap-px bg-white/10 border border-white/10">
@@ -36,8 +36,8 @@ export default function Distinction() {
             <span className="text-[11px] tracking-[0.3em] uppercase text-gold">Performance Objective</span>
             <span className="font-heading text-gold-bright text-[clamp(3rem,7vw,4.2rem)] leading-none">5.5%</span>
             <p className="text-ivory/70 text-sm">
-              Proposed minimum annual growth objective, in addition to clients' existing earnings, subject to
-              agreed terms.
+              Our proposed minimum annual growth objective, on top of your existing earnings. Subject to agreed
+              terms.
             </p>
           </div>
         </Reveal>

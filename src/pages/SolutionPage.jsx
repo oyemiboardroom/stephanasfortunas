@@ -60,7 +60,7 @@ export default function SolutionPage() {
           </Reveal>
 
           <Reveal className="border border-gold-soft p-8 md:p-11 flex flex-wrap items-center justify-between gap-6 mt-10">
-            <p className="font-heading text-xl max-w-sm">Ready to discuss how this applies to you?</p>
+            <p className="font-heading text-xl max-w-sm">Want to see how this could work for you?</p>
             <a
               href="/#consultation"
               className="inline-flex items-center gap-2 border border-obsidian text-obsidian px-8 py-4 font-body text-xs tracking-[0.2em] uppercase hover:bg-obsidian hover:text-ivory transition-colors"

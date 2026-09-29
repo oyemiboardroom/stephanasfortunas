@@ -3,21 +3,21 @@ export const insights = [
     slug: 'unlock-hidden-value',
     cat: 'Value Creation',
     title: '5 Ways Property Owners Can Unlock Hidden Value From Their Real Estate',
-    dek: 'Real estate that simply "sits" rarely reaches its full economic potential. These five levers are the ones owners overlook most often.',
+    dek: 'A property that just sits there rarely earns what it could. These are the five levers we see owners overlook most.',
     img: '/images/ethos.jpg',
     imgAlt: 'Marble architectural detail',
     body: `
-      <p>Most property owners think about value in a single dimension: what the asset might sell for. That view misses most of the picture. A property's value is really a function of five separate levers — and most portfolios are only pulling one or two of them.</p>
-      <h2>Re-examine Use and Zoning</h2>
-      <p>The highest-value use of a property is rarely its current use. A residential plot in a commercially transitioning corridor, a half-occupied office floor, a family home in an area now zoned for higher density — each represents value that stays locked until someone re-examines what the asset is legally and practically permitted to become.</p>
-      <h2>Review the Income Structure</h2>
-      <p>Two identical buildings can produce very different income depending on lease terms, tenant mix and collection discipline. A structured review of rent reviews, escalation clauses and vacancy exposure often uncovers income sitting on the table.</p>
-      <h2>Benchmark Against the Market</h2>
-      <p>Owners who haven't transacted recently tend to anchor on outdated assumptions about what their asset is worth and what it should be earning. An independent benchmarking exercise resets that picture.</p>
-      <h2>Consider Structured Financing</h2>
-      <p>Selling isn't the only way to access the value in a property. Rent-to-Own and other property-backed structures let an owner unlock capital or income while retaining a stake in the asset's upside.</p>
-      <h2>Professionalise Management</h2>
-      <p>Passive ownership is a quiet cost. Active, professionally managed portfolios consistently outperform ones running on inertia — not because of any single decision, but because of the accumulation of many small ones.</p>
+      <p>Ask an owner what their property is worth and they'll usually give you a sale price. That's one number, and it leaves a lot out. In our experience there are five separate levers that drive a property's value, and most portfolios are only pulling one or two of them.</p>
+      <h2>Look again at use and zoning</h2>
+      <p>What a property is used for today is rarely the most valuable thing it could be used for. Think of a residential plot on a street that's slowly turning commercial, an office floor that's half empty, or a family home in an area recently rezoned for higher density. The value is there. It just stays locked until someone asks what the asset is legally and practically allowed to become.</p>
+      <h2>Check how the income is structured</h2>
+      <p>Two identical buildings can earn very different amounts depending on lease terms, tenant mix and how well rent is collected. When we go through rent reviews, escalation clauses and vacancy exposure line by line, we usually find money being left on the table.</p>
+      <h2>Compare yourself to the market</h2>
+      <p>If you haven't bought or sold in a while, your sense of what the asset is worth, and what it should earn, is probably out of date. An independent benchmark fixes that quickly.</p>
+      <h2>Think about structured financing</h2>
+      <p>You don't have to sell to get at the value in a property. Rent-to-Own and other property-backed arrangements let an owner release capital or income and still keep a share of any future upside.</p>
+      <h2>Get the management right</h2>
+      <p>Passive ownership has a cost, even if nobody sends you a bill for it. Portfolios that are actively managed do better over time than ones left on autopilot. There's rarely one big decision behind that. It's dozens of small ones that add up.</p>
       <blockquote>"Real estate should not merely sit on a balance sheet. It should work."</blockquote>
     `,
   },
@@ -25,163 +25,163 @@ export const insights = [
     slug: 'active-portfolio-management',
     cat: 'Portfolio',
     title: 'Why High-Value Property Portfolios Need Active Management',
-    dek: 'Passive ownership erodes value quietly, one missed decision at a time. Active management protects it — and compounds it.',
+    dek: 'Passive ownership loses value slowly, one missed decision at a time. Active management stops the leak and helps returns build on each other.',
     img: '/images/leader.jpg',
     imgAlt: 'Executive portrait',
     body: `
-      <p>A property portfolio doesn't announce when it starts underperforming. There's no alarm for a lease renewed below market, a maintenance backlog quietly building, or a disposal opportunity that came and went. That silence is precisely what makes passive ownership risky at scale.</p>
-      <h2>The Cost of Passive Ownership</h2>
-      <p>Left alone, a portfolio drifts toward the average performance of its market — not because the assets are poor, but because nobody is actively pushing them past average. Over a multi-year holding period, that gap compounds.</p>
-      <h2>What Active Management Actually Means</h2>
-      <p>It is not day-to-day property management. It is a standing discipline of portfolio review, opportunity scanning, and periodic re-optimisation — deciding what to hold, what to refinance, what to reposition and what to sell.</p>
-      <h2>A Practical Review Cadence</h2>
-      <p>Most well-run portfolios are formally reviewed at least annually, with lighter interim checks tied to lease events, market shifts or financing milestones. The review itself matters less than the discipline of doing it on a schedule rather than in reaction to a problem.</p>
-      <h2>When to Bring in Independent Advisory</h2>
-      <p>Owners with significant holdings — particularly those with competing demands on their time — typically reach a point where independent portfolio advisory pays for itself many times over, simply by surfacing decisions that would otherwise go unmade.</p>
+      <p>Nobody gets a warning when a portfolio starts to underperform. A lease gets renewed below market. Maintenance piles up. A good moment to sell comes and goes. None of it makes noise, which is exactly why passive ownership gets risky as holdings grow.</p>
+      <h2>What passive ownership really costs</h2>
+      <p>Leave a portfolio alone and it drifts toward the market average. The assets may be perfectly good; nobody is pushing them to do better. Over a holding period of several years, that small gap turns into a large one.</p>
+      <h2>What we mean by active management</h2>
+      <p>We don't mean day-to-day property management. We mean a regular habit of reviewing the portfolio, watching for opportunities and adjusting course: deciding what to hold, what to refinance, what to reposition and what to sell.</p>
+      <h2>How often to review</h2>
+      <p>Well-run portfolios usually get a formal review at least once a year, with lighter check-ins around lease events, market shifts or financing deadlines. The exact format matters less than doing it on a schedule, rather than only when something has already gone wrong.</p>
+      <h2>When outside advice makes sense</h2>
+      <p>Owners with large holdings, especially busy ones, tend to reach a point where independent advice more than pays for itself. Often the value is simply that someone puts the decisions on the table that would otherwise never get made.</p>
     `,
   },
   {
     slug: 'rent-to-own-alternative-path',
     cat: 'Financing',
     title: 'Rent-to-Own: An Alternative Path to Property Ownership',
-    dek: "For many qualified buyers, the barrier to ownership isn't affordability over time — it's the size of the upfront lump sum.",
+    dek: "Plenty of buyers can afford a home over time. What stops them is the lump sum they need on day one.",
     img: '/images/service3.jpg',
     imgAlt: 'Real Estate Financing — Rent-to-Own',
     body: `
-      <p>Traditional property purchase compresses years of saving into a single upfront event: a deposit, legal fees, and often a mortgage arrangement fee, all due before a buyer ever holds the keys. For otherwise creditworthy buyers, this upfront concentration — not the underlying affordability of the property — is often the real obstacle.</p>
-      <h2>The Upfront Capital Problem</h2>
-      <p>A buyer earning enough to comfortably cover monthly payments can still be locked out simply because they haven't yet accumulated a lump sum. Rent-to-Own addresses this mismatch directly.</p>
-      <h2>How a Rent-to-Own Structure Works</h2>
-      <p>The buyer occupies the property under a structured agreement, making periodic payments that combine occupancy cost with a contribution toward eventual ownership. Over an agreed period, and subject to the terms of the agreement, ownership transfers.</p>
-      <h2>Who It Suits</h2>
-      <p>Professionals early in their earning curve, entrepreneurs with strong income but limited liquid savings, and families who would rather commit to a defined monthly outlay than wait years to accumulate a deposit.</p>
-      <h2>What to Look for in a Structured Agreement</h2>
-      <p>Clarity on how payments are allocated between occupancy and ownership contribution, a clearly defined path and timeline to transfer, and transparency on what happens if circumstances change — these are the terms worth scrutinising before signing.</p>
+      <p>Buying a property the traditional way squeezes years of saving into one moment. The deposit, legal fees and often a mortgage arrangement fee all fall due before you get the keys. For a lot of buyers with good credit, that upfront bill is the real problem, not whether they can afford the property itself.</p>
+      <h2>The upfront capital problem</h2>
+      <p>Someone can earn more than enough to cover the monthly payments and still be shut out because they haven't saved a large lump sum yet. Rent-to-Own is designed around that exact mismatch.</p>
+      <h2>How Rent-to-Own works</h2>
+      <p>The buyer moves in under a written agreement and makes regular payments. Part of each payment covers living in the property, and part goes toward owning it. Once the agreed period is over and the terms have been met, ownership passes to the buyer.</p>
+      <h2>Who it suits</h2>
+      <p>It tends to work well for professionals early in their careers, for entrepreneurs who earn well but don't keep much cash on hand, and for families who would rather commit to a fixed monthly amount than spend years saving for a deposit.</p>
+      <h2>What to check before you sign</h2>
+      <p>Make sure you understand how each payment is split between rent and ownership. Look for a clear route to transfer, with a timeline attached. And ask what happens if your circumstances change halfway through. Those are the terms worth reading twice.</p>
     `,
   },
   {
     slug: 'assess-portfolio-performance',
     cat: 'Advisory',
     title: 'How to Assess the Performance of a Real Estate Portfolio',
-    dek: '"Performing well" needs a definition before it can be measured. Here is the framework we use.',
+    dek: 'You can\'t measure "performing well" until you decide what it means. This is how we break it down.',
     img: '/images/capital.jpg',
     imgAlt: 'Neoclassical bank hall with golden light',
     body: `
-      <p>Ask most owners how their portfolio is performing and the answer is usually a feeling, not a figure. A proper assessment separates that feeling into four distinct questions.</p>
-      <h2>Income Performance</h2>
-      <p>What yield is each asset actually producing, net of costs, against its current market value — not its purchase price? Purchase-price-anchored thinking is the single most common distortion in owner self-assessment.</p>
-      <h2>Capital Performance</h2>
-      <p>Has the asset's value kept pace with, lagged, or outperformed its local market and asset class over the holding period? This requires an honest, independent valuation view, not an assumption carried forward from the last transaction.</p>
-      <h2>Risk and Concentration</h2>
-      <p>A portfolio can show a healthy blended return while carrying dangerous concentration in a single tenant, asset type or location. Performance assessment has to look at the distribution of outcomes, not just the average.</p>
-      <h2>Benchmarking Against Opportunity Cost</h2>
-      <p>The final and most uncomfortable question: is this capital earning more here than it would elsewhere? A portfolio can be performing "well" in isolation and still be the wrong place for that capital to sit.</p>
+      <p>Ask most owners how their portfolio is doing and you'll get a feeling rather than a number. A proper assessment turns that feeling into four separate questions.</p>
+      <h2>Income</h2>
+      <p>What is each asset actually earning after costs, measured against what it's worth today, not what you paid for it? Anchoring on the purchase price is the most common mistake we see when owners judge their own portfolios.</p>
+      <h2>Capital value</h2>
+      <p>Over the time you've held it, has the asset kept up with its local market and asset class, fallen behind, or pulled ahead? Answering that honestly takes an independent valuation. An assumption carried over from the last transaction won't do.</p>
+      <h2>Risk and concentration</h2>
+      <p>A portfolio can show a healthy overall return while leaning heavily on a single tenant, property type or location. That's why we look at how the results are spread across the portfolio as well as at the average.</p>
+      <h2>Opportunity cost</h2>
+      <p>This is the question owners like least: would this money earn more somewhere else? A portfolio can look fine on its own terms and still be the wrong home for that capital.</p>
     `,
   },
   {
     slug: 'real-estate-strategic-capital-asset',
     cat: 'Capital',
     title: 'Real Estate as a Strategic Capital Asset',
-    dek: 'Property is usually the last asset class treated strategically. That is a significant missed opportunity for most owners.',
+    dek: 'Property is usually the last thing owners think about strategically. For most of them, that means a real opportunity goes unused.',
     img: '/images/distinction.jpg',
     imgAlt: 'Brass key resting on dark velvet',
     body: `
-      <p>Owners who would never leave cash or securities unmanaged often do exactly that with real estate — treating it as a fixed, static line on a personal balance sheet rather than a working capital asset.</p>
-      <h2>From Balance Sheet to Working Capital</h2>
-      <p>Properly structured, qualifying property can support financing, trade and investment activity well beyond its role as a place to live or a rental income line. The asset itself becomes a form of security that unlocks other opportunities.</p>
-      <h2>Structuring Property-Backed Solutions</h2>
-      <p>This requires deliberate structuring — matching the right property-backed instrument to the right objective, whether that is unlocking liquidity, supporting a trade finance requirement, or backing an equity investment.</p>
-      <h2>Where This Fits a Wider Strategy</h2>
-      <p>For owners already thinking about diversification, succession or business growth, real estate is rarely considered as part of that conversation. It should be — a well-structured property base can quietly underwrite a great deal of the rest of a strategy.</p>
+      <p>People who would never leave cash or shares sitting unmanaged often do exactly that with property. They treat it as a fixed line on a personal balance sheet instead of an asset that could be doing work.</p>
+      <h2>From balance sheet to working capital</h2>
+      <p>Set up properly, a qualifying property can support financing, trade and investment, which goes well beyond being a home or a source of rent. The property becomes security, and that security opens other doors.</p>
+      <h2>Choosing the right structure</h2>
+      <p>None of this happens by accident. It means picking the right property-backed arrangement for what you're trying to achieve, whether that's raising cash, supporting a trade finance facility or backing an equity investment.</p>
+      <h2>How it fits your wider plans</h2>
+      <p>When owners think about diversifying, planning for succession or growing a business, property rarely comes up. It should. A well-structured property base can support a surprising amount of everything else.</p>
     `,
   },
   {
     slug: 'investment-grade-portfolio',
     cat: 'Investment',
     title: 'What Makes a Property Portfolio Investment-Grade?',
-    dek: 'Not every portfolio is ready for institutional-style scrutiny. Here is what changes when it is.',
+    dek: "Not every portfolio can stand up to institutional scrutiny. Here's what the ones that can have in common.",
     img: '/images/alliance.jpg',
     imgAlt: 'Marble hands clasped in partnership',
     body: `
-      <p>Institutions, family offices and serious co-investors apply a consistent lens when evaluating a real estate portfolio, whether they are lending against it, investing alongside it, or acquiring it outright.</p>
-      <h2>Documentation and Title Clarity</h2>
-      <p>Clean, complete title and transaction documentation is the baseline requirement — and the single most common reason an otherwise attractive portfolio fails scrutiny.</p>
-      <h2>Income Predictability</h2>
-      <p>Formal leases, documented payment history and a credible tenant base matter more than headline yield. Predictability is what sophisticated capital is actually pricing.</p>
+      <p>Whether they're lending against a portfolio, investing alongside it or buying it outright, institutions, family offices and serious co-investors tend to ask the same questions.</p>
+      <h2>Clean title and paperwork</h2>
+      <p>Clear, complete title and transaction documents are the minimum. Missing paperwork is also the most common reason an otherwise attractive portfolio gets turned down.</p>
+      <h2>Predictable income</h2>
+      <p>Formal leases, a record of payments and tenants you can rely on count for more than a big headline yield. Experienced investors are really paying for predictability.</p>
       <h2>Diversification</h2>
-      <p>Concentration in a single asset, tenant or geography is treated as a structural risk, regardless of how well that concentration has performed historically.</p>
-      <h2>Professional Oversight</h2>
-      <p>A portfolio managed under a documented, repeatable process reads very differently to outside capital than one managed informally, even where the underlying assets are identical.</p>
+      <p>Too much reliance on one building, one tenant or one area is treated as a structural risk, however well it has worked out so far.</p>
+      <h2>Professional oversight</h2>
+      <p>Outside investors see a portfolio run on a documented, repeatable process very differently from one run informally, even when the properties themselves are identical.</p>
     `,
   },
   {
     slug: 'income-vs-capital-growth',
     cat: 'Strategy',
     title: 'Understanding Income vs Capital Growth in Real Estate',
-    dek: 'Every real estate strategy is, at its core, a decision about which of two return streams matters more to you — and when.',
+    dek: 'Every property strategy comes down to which of two kinds of return matters more to you, and when you need it.',
     img: '/images/service2.jpg',
     imgAlt: 'Portfolio Advisory',
     body: `
-      <p>Real estate returns come from two genuinely different sources: the income an asset produces while you hold it, and the change in its value between purchase and sale. Confusing the two — or optimising for one while believing you are optimising for the other — is one of the most common strategic errors owners make.</p>
-      <h2>Income-Oriented Strategy</h2>
-      <p>Prioritises yield, tenant quality and lease stability. It suits owners who need the asset to fund something else — retirement income, reinvestment, or debt servicing — on a predictable schedule.</p>
-      <h2>Growth-Oriented Strategy</h2>
-      <p>Prioritises location trajectory, development potential and market timing, often accepting lower interim income in exchange for a larger eventual gain.</p>
-      <h2>Why the Distinction Matters</h2>
-      <p>A portfolio built for income and then judged on capital growth — or vice versa — will always look like it is underperforming, because it is being measured against a goal it was never structured to achieve. Clarity on which objective governs each asset is the starting point for any honest performance conversation.</p>
+      <p>Property makes money in two quite different ways. There's the income it earns while you own it, and there's the change in its value between when you buy and when you sell. Mixing the two up, or chasing one while thinking you're chasing the other, is one of the most common strategic mistakes we see.</p>
+      <h2>Investing for income</h2>
+      <p>The focus here is yield, good tenants and stable leases. It suits owners who need the property to pay for something else, such as retirement, reinvestment or loan repayments, on a predictable schedule.</p>
+      <h2>Investing for growth</h2>
+      <p>Here the focus is where an area is heading, what could be built and when to buy or sell. Growth investors often accept less income along the way in return for a bigger gain at the end.</p>
+      <h2>Why the difference matters</h2>
+      <p>If a portfolio built for income gets judged on capital growth, or the other way round, it will always look like it's underperforming. It's being measured against a goal it was never set up to meet. So before any honest conversation about performance, you need to be clear which goal each asset is there to serve.</p>
     `,
   },
   {
     slug: 'nigeria-real-estate-market',
     cat: 'Market',
     title: "Nigeria's Real Estate Market: Opportunities and Risks",
-    dek: 'A market defined by strong underlying demand and uneven execution — which is exactly where advisory adds the most value.',
+    dek: 'Demand is strong but deals are often badly executed. That gap is where good advice matters most.',
     img: '/images/hero.jpg',
     imgAlt: '',
     body: `
-      <p>Nigeria's real estate market combines some of the strongest structural demand drivers anywhere — rapid urbanisation, a young and growing population, and a persistent housing and commercial space deficit — with execution risk that keeps much of that opportunity from being efficiently captured.</p>
-      <h2>The Structural Opportunity</h2>
-      <p>Demand for well-located residential, commercial and mixed-use property continues to outstrip quality supply in the markets that matter most, supporting income and capital growth for well-positioned assets.</p>
-      <h2>The Execution Risk</h2>
-      <p>Title complexity, inconsistent documentation standards, and a market where informal transactions remain common all raise the cost of getting a deal wrong — often invisibly, until an owner tries to sell, finance or transfer the asset.</p>
-      <h2>Where Advisory Adds the Most Value</h2>
-      <p>In a market like this, the value of independent advisory is less about finding opportunity — there is plenty of it — and more about structuring around the risk so that opportunity is actually capturable, transferable and financeable.</p>
+      <p>Few markets have demand as strong as Nigeria's. Cities are growing fast, the population is young and getting bigger, and there still isn't enough housing or commercial space. The trouble is execution, which stops a lot of that opportunity from being captured well.</p>
+      <h2>The opportunity</h2>
+      <p>In the locations that matter most, demand for good residential, commercial and mixed-use property keeps running ahead of quality supply. For well-placed assets, that supports both rental income and capital growth.</p>
+      <h2>The execution risk</h2>
+      <p>Complicated titles, uneven documentation and the number of informal deals all raise the cost of getting a transaction wrong. Often nobody notices the problem until the owner tries to sell, borrow against or transfer the property.</p>
+      <h2>Where advice helps most</h2>
+      <p>There's no shortage of opportunity in a market like this. The harder part is structuring a deal so the opportunity can actually be captured, and later sold or financed without trouble. That's where independent advice earns its keep.</p>
     `,
   },
   {
     slug: 'real-estate-supports-sme-growth',
     cat: 'SME',
     title: 'How Real Estate Can Support SME Growth',
-    dek: 'For many small and mid-sized businesses, property is the most underused asset already sitting on the balance sheet.',
+    dek: 'For many small and mid-sized businesses, the most underused asset is property they already own.',
     img: '/images/service4.jpg',
     imgAlt: 'Real Estate-Backed Guaranty',
     body: `
-      <p>Growth-stage businesses are frequently capital-constrained not because they lack viable opportunities, but because they lack the collateral or security that conventional financing requires. Many of those same businesses — or their owners — hold residential property that has never been considered part of the financing conversation.</p>
-      <h2>The Underused Asset</h2>
-      <p>Qualifying residential property, structured correctly, can support trade financing, working capital arrangements and equity investment — turning a personal or family asset into a lever for business growth.</p>
-      <h2>Trade and Distribution Support</h2>
-      <p>Property-backed security can underpin inventory financing, supplier credit and purchase-order arrangements that would otherwise be out of reach for a growing distribution business.</p>
-      <h2>Equity Investment Support</h2>
-      <p>For businesses seeking growth capital rather than debt, property-backed structures can also form part of the risk-mitigation framework that makes an equity investment more attractive to outside capital.</p>
-      <h2>Getting the Structure Right</h2>
-      <p>This only works when the underlying property and the financing structure are properly matched to the business need — which is precisely the advisory work worth doing before, not after, a financing conversation begins.</p>
+      <p>Growing businesses are often short of capital. It's rarely because they lack good opportunities. More often they lack the collateral that lenders ask for. Yet many of these businesses, or the people who own them, hold residential property that has never been part of the financing conversation.</p>
+      <h2>An asset nobody is using</h2>
+      <p>Set up correctly, a qualifying residential property can support trade finance, working capital and equity investment. A personal or family asset starts helping the business grow.</p>
+      <h2>Support for trade and distribution</h2>
+      <p>Property-backed security can support inventory financing, supplier credit and purchase-order financing that a growing distributor might not otherwise qualify for.</p>
+      <h2>Support for equity investment</h2>
+      <p>Some businesses want investors rather than loans. For them, a property-backed arrangement can be part of what reduces risk for an outside investor and makes the deal more attractive.</p>
+      <h2>Getting the structure right</h2>
+      <p>All of this depends on matching the property and the financing structure to what the business actually needs. That work is best done before any financing conversation starts, not halfway through it.</p>
     `,
   },
   {
     slug: 'residential-property-productive-capital',
     cat: 'Capital',
     title: 'Connecting Residential Property with Productive Capital',
-    dek: 'A home can be more than a home. Under the right structure, it can support a great deal more.',
+    dek: 'A home is usually just a home. Set up the right way, it can support a lot more.',
     img: '/images/ethos.jpg',
     imgAlt: 'Marble architectural detail',
     body: `
-      <p>Residential property is usually the largest single asset most individuals ever hold — and the one least connected to the rest of their financial life. It sits, largely inert, while its owner pursues income, investment and growth through entirely separate channels.</p>
-      <h2>The Ecosystem View</h2>
-      <p>Property, once qualified and structured appropriately, can connect to income, financing, security, business growth and investment in a single continuous chain — rather than sitting apart from all of it.</p>
-      <h2>What "Qualifying" Means</h2>
-      <p>Not every property is suited to every structure. Location, title clarity, income potential and the owner's objectives all determine which pathway — Rent-to-Own, trade-backed security, or equity-investment support — makes sense.</p>
-      <h2>Why This Matters Now</h2>
-      <p>As financing conditions tighten across most markets, the ability to responsibly unlock value from an asset already owned — rather than seeking entirely new capital — becomes a meaningfully more valuable capability, for individuals and businesses alike.</p>
+      <p>For most people, their home is the biggest thing they'll ever own. It's also the asset least connected to the rest of their finances. The house sits there while its owner looks for income, investment and growth somewhere else entirely.</p>
+      <h2>Seeing the whole chain</h2>
+      <p>Once a property qualifies and is structured properly, it can link to income, financing, security, business growth and investment, one step leading to the next. It no longer has to sit apart from all of that.</p>
+      <h2>What "qualifying" means</h2>
+      <p>Not every property suits every arrangement. Location, a clean title, earning potential and what the owner wants all decide which route makes sense: Rent-to-Own, security for trade, or support for an equity investment.</p>
+      <h2>Why now</h2>
+      <p>Borrowing is getting harder in most markets. Being able to responsibly draw value from something you already own, instead of hunting for new capital, is worth more than it used to be for individuals and businesses alike.</p>
     `,
   },
 ];

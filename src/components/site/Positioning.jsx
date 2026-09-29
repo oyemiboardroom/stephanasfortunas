@@ -2,10 +2,10 @@ import React from 'react';
 import Reveal from './Reveal.jsx';
 
 const ITEMS = [
-  ['01', 'Private', 'Discretion at the core of every engagement'],
-  ['02', 'Strategic', 'Tailored to each asset and objective'],
-  ['03', 'Confidential', 'Structured around professional integrity'],
-  ['04', 'Performance-Focused', 'Designed around measurable outcomes'],
+  ['01', 'Private', 'We work quietly, out of the public eye'],
+  ['02', 'Strategic', 'Built around your assets and your goals'],
+  ['03', 'Confidential', 'Nothing is shared without your say-so'],
+  ['04', 'Performance-Focused', 'Success measured in numbers you can check'],
 ];
 
 export default function Positioning() {

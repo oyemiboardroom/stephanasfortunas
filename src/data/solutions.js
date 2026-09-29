@@ -4,12 +4,12 @@ export const solutions = [
     pillarNo: '01',
     eyebrow: 'Solutions · Real Estate Agency Platform',
     title: 'Connecting Property, Capital and Opportunity',
-    dek: 'Odacity is our structured environment where owners, buyers, investors and tenants discover and execute quality real estate opportunities — intelligence, transaction support and market access in one place.',
+    dek: 'Odacity is our platform for owners, buyers, investors and tenants. It brings market information, deal support and access to good opportunities into one place.',
     img: '/images/service1.jpg',
     imgAlt: 'Real Estate Agency Platform — Odacity',
     body: `
-      <p>Real estate transactions are usually let down by fragmentation — a listing here, an unverified valuation there, a buyer and seller who never quite get properly matched. The Real Estate Agency Platform exists to remove that fragmentation, combining property intelligence, transaction support and market access into one structured process.</p>
-      <h2>What the Platform Covers</h2>
+      <p>Most property deals go wrong because the pieces are scattered. There's a listing in one place, a valuation nobody has checked in another, and a buyer and seller who were never a good match. We built the Real Estate Agency Platform to pull those pieces together, so the research, the transaction and the people you need to reach all sit in one process.</p>
+      <h2>What the platform covers</h2>
       <ul>
         <li>Property acquisition &amp; disposition</li>
         <li>Property marketing</li>
@@ -20,7 +20,7 @@ export const solutions = [
         <li>Commercial and investment real estate opportunities</li>
         <li>Property portfolio optimisation</li>
       </ul>
-      <p>Every engagement is run privately and discreetly, whether the mandate is to sell a single significant asset, source acquisition opportunities across a market, or coordinate a portfolio-level transaction.</p>
+      <p>We handle every mandate privately. That applies whether you're selling one important asset, looking for properties to buy across a market, or moving an entire portfolio.</p>
     `,
     ctaLabel: 'Explore Real Estate Opportunities',
   },
@@ -29,19 +29,19 @@ export const solutions = [
     pillarNo: '02',
     eyebrow: 'Solutions · Portfolio Advisory',
     title: 'Turning Portfolios into Strategic Assets',
-    dek: 'Independent strategic advisory for substantial real estate holdings — we assess composition and performance to improve income and capital appreciation.',
+    dek: 'Independent advice for owners of large property holdings. We look at what you own and how it is performing, then help you earn more from it and grow its value.',
     img: '/images/service2.jpg',
     imgAlt: 'Portfolio Advisory',
     body: `
-      <p>For high-net-worth individuals, family offices, institutions and property owners with substantial holdings, we provide independent portfolio advisory built around a single question: is this portfolio performing at its full potential?</p>
-      <h2>Our Advisory Approach</h2>
+      <p>We advise high-net-worth individuals, family offices, institutions and other owners with large property holdings. Our work starts with one question: is this portfolio doing as well as it could?</p>
+      <h2>How we advise</h2>
       <ul>
         <li>Portfolio review &amp; analysis</li>
         <li>Market intelligence &amp; opportunity identification</li>
         <li>Deal room activities</li>
         <li>Strategic portfolio management</li>
       </ul>
-      <p>We assess the composition, performance and potential of existing assets, then identify the specific opportunities available to improve income generation, capital appreciation and overall portfolio efficiency — before supporting the client through evaluation, structuring and execution of any resulting transaction.</p>
+      <p>First we look at what you own, how each asset is performing and what it could do. Then we point to the specific moves that would raise income or value, or simply make the portfolio run better. If that leads to a transaction, we stay with you through the evaluation, the structuring and the deal itself.</p>
     `,
     ctaLabel: 'Discuss Your Portfolio With Us',
   },
@@ -50,21 +50,21 @@ export const solutions = [
     pillarNo: '03',
     eyebrow: 'Solutions · Real Estate Financing',
     title: 'Own the Future of Your Property',
-    dek: 'A structured pathway from occupancy to ownership — without the traditional upfront capital commitment.',
+    dek: 'Move in now and work toward owning the property, without needing a large sum upfront.',
     img: '/images/service3.jpg',
     imgAlt: 'Real Estate Financing — Rent-to-Own',
     body: `
-      <p>Many property owners have substantial wealth locked within real estate but lack the liquidity to unlock its full economic potential — and many qualified occupiers are held back from ownership by the size of a single upfront payment rather than their ongoing ability to pay. Our Rent-to-Own model is built to bridge both sides of that gap.</p>
+      <p>There are two problems here. Many owners have a lot of wealth tied up in property but not enough cash to make the most of it. And many people who could easily manage monthly payments can't buy because of the size of the upfront payment. Rent-to-Own is designed to solve both at once.</p>
     `,
     steps: [
-      ['Select', 'Identify a qualifying property that matches your requirements.'],
-      ['Structure', 'We develop a payment and ownership structure appropriate to the property and client.'],
-      ['Occupy', 'The client takes possession under the agreed arrangement.'],
-      ['Pay', 'Periodic payments are made according to the agreed schedule.'],
-      ['Own', 'Upon fulfilment of the agreed conditions, ownership transfers in accordance with the contractual structure.'],
+      ['Select', 'Choose a qualifying property that fits what you need.'],
+      ['Structure', 'We agree a payment plan and ownership terms that suit you and the property.'],
+      ['Occupy', 'You move in under the agreed terms.'],
+      ['Pay', 'You make regular payments on the agreed schedule.'],
+      ['Own', 'Once the agreed conditions are met, ownership passes to you as set out in the contract.'],
     ],
     afterSteps: `
-      <h2>Ideal For</h2>
+      <h2>Who it's for</h2>
       <ul>
         <li>Professionals and entrepreneurs</li>
         <li>Families building toward ownership</li>
@@ -80,16 +80,16 @@ export const solutions = [
     pillarNo: '04',
     eyebrow: 'Solutions · Real Estate-Backed Guaranty',
     title: 'Turning Residential Property into Financial Access',
-    dek: 'Qualifying residential property, structured appropriately, becomes part of a security framework supporting trade, distribution and equity investment.',
+    dek: 'With the right structure, a qualifying home can act as security that helps businesses trade, distribute goods and attract equity investment.',
     img: '/images/service4.jpg',
     imgAlt: 'Real Estate-Backed Guaranty',
     body: `
-      <p>Access to capital remains one of the biggest constraints facing SMEs and businesses engaged in trade and distribution. We are developing a structured model that leverages qualifying residential properties within our Rent-to-Own ecosystem to provide additional security and financial support for eligible commercial transactions and investment opportunities.</p>
-      <h2>Two Applications</h2>
-      <p>This structure currently supports two connected solutions:</p>
+      <p>For SMEs, and for businesses in trade and distribution in particular, getting access to capital is still one of the hardest problems. We're building a model that uses qualifying homes in our Rent-to-Own programme as extra security for eligible business deals and investments.</p>
+      <h2>Two ways it's used</h2>
+      <p>Right now it supports two related solutions:</p>
       <ul>
-        <li><strong>Trade Distribution</strong> — enabling qualifying distributors and businesses to access inventory, distribution opportunities and working capital arrangements backed by structured real estate security.</li>
-        <li><strong>SME Equity Investment</strong> — supporting investment structures where qualifying SMEs can access growth capital through an equity investment framework supported by appropriate real estate-backed arrangements.</li>
+        <li><strong>Trade Distribution.</strong> Qualifying distributors and businesses can get inventory, distribution deals and working capital, with property as the security.</li>
+        <li><strong>SME Equity Investment.</strong> Qualifying SMEs can raise growth capital from equity investors, with property-backed arrangements included to reduce the investor's risk.</li>
       </ul>
     `,
     ctaLabel: 'Enquire About Real Estate-Backed Guaranty',
@@ -98,13 +98,13 @@ export const solutions = [
     slug: 'trade-distribution',
     pillarNo: 'Capital',
     eyebrow: 'Capital Solutions · Trade Distribution',
-    title: 'Unlocking Distribution Opportunities Through Property-Backed Security',
-    dek: 'Distributors and trading businesses often have viable commercial opportunities constrained only by access to inventory financing, supplier credit and working capital.',
+    title: 'Property-Backed Security for Distribution Deals',
+    dek: 'Plenty of distributors and traders have good deals in front of them. What holds them back is getting stock on credit and having enough working capital.',
     img: '/images/distinction.jpg',
     imgAlt: 'Brass key resting on dark velvet',
     body: `
-      <p>We structure qualifying Rent-to-Own residential assets within an agreed security framework to support eligible trade and distribution transactions — turning a property already in our ecosystem into working capital for a separate business opportunity.</p>
-      <h2>Potential Applications</h2>
+      <p>We take qualifying homes from our Rent-to-Own programme and, under an agreed security arrangement, use them to back eligible trade and distribution deals. A property that's already in our network ends up funding a separate business opportunity.</p>
+      <h2>What it can be used for</h2>
       <ul>
         <li>Inventory acquisition</li>
         <li>Distributor financing</li>
@@ -114,8 +114,8 @@ export const solutions = [
         <li>Distribution network expansion</li>
         <li>Strategic trade opportunities</li>
       </ul>
-      <h2>Value Proposition</h2>
-      <p><strong>For distributors</strong> — access to opportunities that might otherwise require substantial upfront capital. <strong>For suppliers</strong> — additional security within an appropriately structured transaction. <strong>For property owners</strong> — increased economic utility of a qualifying real estate asset. <strong>For investors</strong> — participation in structured transactions connected to productive economic activity.</p>
+      <h2>Who benefits</h2>
+      <p>Distributors can take on deals that would normally need a lot of cash upfront. Suppliers get extra security on the transaction. Property owners get more out of a qualifying asset. Investors get a stake in deals tied to real business activity.</p>
     `,
     ctaLabel: 'Discuss a Trade Distribution Structure',
   },
@@ -124,12 +124,12 @@ export const solutions = [
     pillarNo: 'Capital',
     eyebrow: 'Capital Solutions · SME Equity Investment',
     title: 'Connecting Growth Capital with Real Estate Security',
-    dek: 'Many promising SMEs have strong businesses and clear growth opportunities but lack sufficient capital to scale.',
+    dek: 'Many good SMEs have a solid business and a clear way to grow, but not enough capital to get there.',
     img: '/images/process.jpg',
     imgAlt: 'Luxury residential tower at night',
     body: `
-      <p>We can facilitate structured investment opportunities where qualifying SMEs receive equity capital, while appropriate real estate assets within the Rent-to-Own ecosystem form part of the broader security or risk-mitigation structure, where legally and commercially appropriate.</p>
-      <h2>Target Businesses</h2>
+      <p>We can arrange for qualifying SMEs to receive equity investment. Where it makes legal and commercial sense, property from our Rent-to-Own programme becomes part of the security that protects the investor.</p>
+      <h2>Businesses we work with</h2>
       <ul>
         <li>Established SMEs</li>
         <li>Distributors and manufacturers</li>
@@ -138,7 +138,7 @@ export const solutions = [
         <li>Property-related businesses</li>
         <li>High-growth businesses with demonstrable cash flows</li>
       </ul>
-      <h2>What We Assess</h2>
+      <h2>What we look at</h2>
       <ul>
         <li>Business model and market opportunity</li>
         <li>Historical financial performance and cash-flow capacity</li>

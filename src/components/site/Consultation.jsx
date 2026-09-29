@@ -87,9 +87,8 @@ export default function Consultation() {
             Let&apos;s discuss your real estate strategy.
           </h2>
           <p className="mt-6 text-obsidian/60 text-base">
-            Whether you own a substantial property portfolio, are exploring an investment opportunity, require
-            structured financing or are seeking growth capital for a qualifying business, our team would be
-            pleased to have a confidential conversation.
+            Maybe you own a large portfolio, or you&apos;re weighing up an investment. Maybe you need financing,
+            or capital to grow a business. Whatever it is, we&apos;re happy to talk it through in confidence.
           </p>
 
           <div className="mt-12 grid gap-6 border-t border-black/15 pt-8">
@@ -110,10 +109,10 @@ export default function Consultation() {
               <div className="w-16 h-16 rounded-full border border-gold flex items-center justify-center">
                 <span className="font-heading text-2xl text-gold">✓</span>
               </div>
-              <h3 className="font-heading text-3xl font-light">Your request is received.</h3>
+              <h3 className="font-heading text-3xl font-light">Thank you. We have your request.</h3>
               <p className="max-w-sm text-obsidian/60 text-sm">
-                A member of our advisory team will be in touch privately within two business days to arrange
-                your confidential consultation.
+                Someone from our advisory team will contact you privately within two business days to find a
+                time to talk.
               </p>
             </div>
           ) : (

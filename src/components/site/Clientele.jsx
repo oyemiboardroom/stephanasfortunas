@@ -3,20 +3,20 @@ import Reveal from './Reveal.jsx';
 import SectionLabel from './SectionLabel.jsx';
 
 const ITEMS = [
-  ['01', 'High-Net-Worth Individuals', 'Owners seeking to improve performance and value of significant holdings.'],
-  ['02', 'Ultra-High-Net-Worth', 'Clients requiring highly customised, private strategic advisory.'],
-  ['03', 'Family Offices', 'Independent support for acquisition, optimisation and investment.'],
-  ['04', 'Institutions', 'Organisations with substantial holdings seeking portfolio review.'],
-  ['05', 'Corporate Organisations', 'Companies seeking structured acquisition or financing solutions.'],
-  ['06', 'Property Owners', 'Owners looking to unlock additional income and value.'],
-  ['07', 'SMEs & Businesses', 'Qualifying businesses seeking trade financing or growth capital.'],
+  ['01', 'High-Net-Worth Individuals', 'People with large holdings who want them to perform better.'],
+  ['02', 'Ultra-High-Net-Worth', 'Clients who need advice built entirely around them and handled privately.'],
+  ['03', 'Family Offices', 'Independent help with buying, improving and investing in property.'],
+  ['04', 'Institutions', 'Organisations with large holdings that want an outside review.'],
+  ['05', 'Corporate Organisations', 'Companies that need help buying property or financing it.'],
+  ['06', 'Property Owners', 'Owners who suspect their property could be earning more.'],
+  ['07', 'SMEs & Businesses', 'Qualifying businesses that need trade finance or capital to grow.'],
 ];
 
 export default function Clientele() {
   return (
     <section id="clientele" data-tag="Clientele" className="py-16 md:py-28 bg-ivory text-obsidian">
       <div className="max-w-[1280px] mx-auto">
-        <SectionLabel index="05 // Clientele" kicker="Who We Serve" title="Built for Significant Real Estate Interests" light />
+        <SectionLabel index="05 // Clientele" kicker="Who We Serve" title="The Clients We Work With" light />
 
         <div className="grid md:grid-cols-[0.7fr_1.3fr] gap-8 md:gap-16 items-start">
           <Reveal className="bg-ivory p-3.5 shadow-[0_26px_50px_rgba(0,0,0,0.45)] clip-plate max-w-xs mx-auto md:max-w-none">

@@ -15,8 +15,8 @@ export default function Footer() {
               From Property to Capital. From Capital to Growth.
             </p>
             <p className="text-graphite text-sm">
-              A real estate capital and advisory platform focused on unlocking the value, income and growth
-              potential of property assets.
+              We advise property owners and help them raise capital, so their real estate earns more and grows
+              in value.
             </p>
           </div>
 

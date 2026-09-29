@@ -27,8 +27,8 @@ export default function Hero() {
           of Real Estate
         </h1>
         <p className="text-ivory-soft text-base md:text-lg max-w-xl">
-          Private, strategic and tailored real estate solutions for property owners, investors and institutions
-          seeking to maximise the value, income and long-term performance of their real estate assets.
+          We work privately with property owners, investors and institutions who want their real estate to earn
+          more and keep growing in value for years to come.
         </p>
         <div className="flex flex-wrap items-center gap-8 mt-1">
           <a
