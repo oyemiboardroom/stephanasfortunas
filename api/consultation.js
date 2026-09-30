@@ -2,7 +2,7 @@
 // Sends consultation-request form submissions to the firm's inbox via Resend.
 // Requires RESEND_API_KEY to be set as a Vercel environment variable.
 
-const TO_ADDRESS = 'ea@stephanasfortunas.com';
+const TO_ADDRESS = 'ea@loyacc.com';
 
 // Resend requires the "from" address to be on a domain verified in the
 // account. Only pp.capiguaran.com is verified there today, so we send from

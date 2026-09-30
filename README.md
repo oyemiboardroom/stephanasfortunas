@@ -21,7 +21,7 @@ src/
   data/               solutions.js and insights.js — edit copy here
   pages/              Home, SolutionPage, InsightPage, NotFound
 public/images/        Photography used across the site
-api/consultation.js   Serverless function: emails the consultation form to ea@stephanasfortunas.com
+api/consultation.js   Serverless function: emails the consultation form to ea@loyacc.com
 ```
 
 To change the copy on a solution or insight page, edit the matching object in `src/data/solutions.js` or
@@ -44,7 +44,7 @@ npm run preview   # serve the production build locally
 ## Consultation form → email delivery
 
 Submitting the "Request a Confidential Consultation" form POSTs to `api/consultation.js`, a
-Vercel serverless function that sends the details to **[ea@stephanasfortunas.com](mailto:ea@stephanasfortunas.com)**
+Vercel serverless function that sends the details to **[ea@loyacc.com](mailto:ea@loyacc.com)**
 via [Resend](https://resend.com), with reply-to set to the enquirer's own email.
 
 **Required setup:**
@@ -55,7 +55,7 @@ via [Resend](https://resend.com), with reply-to set to the enquirer's own email.
 
 **About the "from" address:** Resend requires the sending domain to be verified in your Resend
 account. Only `pp.capiguaran.com` is currently verified, so `api/consultation.js` sends from
-`consultations@pp.capiguaran.com` for now — the recipient (`ea@stephanasfortunas.com`) doesn't
+`consultations@pp.capiguaran.com` for now — the recipient (`ea@loyacc.com`) doesn't
 need any verification, only the sender domain does. Once `stephanasfortunas.com` (or a subdomain
 like `mail.stephanasfortunas.com`) is added and verified in Resend, update `FROM_ADDRESS` at the
 top of `api/consultation.js` to send from that domain instead.
