@@ -39,7 +39,7 @@ export default function CornerChrome() {
       </div>
 
       <div className="fixed top-0 right-0 z-50 text-right p-6 bg-obsidian/35 backdrop-blur-md hidden sm:block">
-        <div className="font-body text-[11px] tracking-[0.3em] uppercase text-gold">Est. MMXXVI</div>
+        <div className="font-body text-[11px] tracking-[0.3em] uppercase text-gold">Est. MMXX</div>
         <div className="mt-1 font-body text-xs tracking-[0.14em] uppercase text-ivory-soft">
           Real Estate Capital &amp; Advisory
         </div>
